@@ -9,3 +9,8 @@ out/
 *.xcframework*
 .cache/
 .tmp/
+# ignore build outputs generally
+build/
+
+# but keep the binary artifact zip for SwiftPM
+!build/wg-go.xcframework.zip
